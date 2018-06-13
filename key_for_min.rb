@@ -7,6 +7,8 @@ def key_for_min_value(name_hash)
  
  if ikea == 0 
    nil 
- elsif
+ elsif ikea.each do |key, value|
+   return key 
+  end
 
 end
